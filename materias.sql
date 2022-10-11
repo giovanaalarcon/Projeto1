@@ -1,4 +1,4 @@
-create database MateriasDB
+create database MateriasDB;
 create table materias (
     NOME varchar(100),
     ID_MATERIA int,
