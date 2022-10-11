@@ -1,4 +1,4 @@
-create database alunosDB;
+create database AlunosDB;
 
 use alunosDB;
 
