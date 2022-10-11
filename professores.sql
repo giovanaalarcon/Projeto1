@@ -1,4 +1,4 @@
-create table ProfessoresDB
+create database ProfessoresDB;
 create table professor (
     NOME varchar (100),
     EMAIL varchar (100),
