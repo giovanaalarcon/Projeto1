@@ -1,9 +1,13 @@
 create database ProfessoresDB;
+
+use ProfessoresDB;
+
 create table professor (
     NOME varchar (100),
     EMAIL varchar (100),
     MATERIA varchar(100)
 );
+
 insert into professor (NOME, EMAIL, MATERIA)
 values
     ('Alonso Xastre','xastre@puccampinas.edu.br','Pi: Desenvolvimento de Sistemas Web'),
