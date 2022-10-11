@@ -1,6 +1,6 @@
 create database AlunosDB;
 
-use alunosDB;
+use AlunosDB;
 
 create table alunos (
     NOME varchar(100) NOT NULL,
