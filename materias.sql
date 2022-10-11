@@ -1,9 +1,13 @@
 create database MateriasDB;
+
+use MateriasDB;
+
 create table materias (
     NOME varchar(100),
     ID_MATERIA int,
     SALA varchar(10)
 );
+
 insert into materias (NOME, ID_MATERIA, SALA)
 values
     ('Pi: Desenvolvimento de Sistemas Web','12902','H15_S04'),
