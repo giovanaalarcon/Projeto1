@@ -20,7 +20,7 @@ values
     ('Jose Martins','22000007','jose.martins@puccampinas.edu.br', 'After'),
     ('Rafael Luis','22000008','rafael.luis@puccampinas.edu.br', 'Garotas S.A'),
     ('Julia Silva','22000009','julia.silva@puccampinas.edu.br', 'Amigos para sempre'),
-    ('Luis Gustavo','22000010','luis.gustavo@puccampinas.edu.br', 'Justiceir'),
+    ('Luis Gustavo','22000010','luis.gustavo@puccampinas.edu.br', 'Justiceira'),
     ('Joao Vitor','22000011','joao.vitor@puccampinas.edu.br', 'Sing'),
     ('Joao Pedro','22000012','joao.pedro@puccampinas.edu.br', 'As branquelas'),
     ('Luiza Souza','22000013','luiza.souza@puccampinas.edu.br', 'Emma'),
