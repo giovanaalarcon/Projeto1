@@ -1,19 +1,18 @@
-create table MateriasDB
-create table materias (
-    NOME varchar(100),
-    ID_MATERIA int,
-    SALA varchar(10)
+create table ProfessoresDB
+create table professor (
+    NOME varchar (100),
+    EMAIL varchar (100),
+    MATERIA varchar(100)
 );
-insert into materias 
+insert into professor (NOME, EMAIL, MATERIA)
 values
-    ('Pi: Desenvolvimento de Sistemas Web','12902','H15_S04'),
-    ('Organizacao de Sistemas de Computacao','12903','H15_110'),
-    ('Calculo 1','11445','H15_111')
-    ('Calculo 2','11446','H15_120');
-    ('Robotica teorica','23415','CTA_09')
-    ('Robotica pratica','23489','H15_01')
-    ('Teologia','78965','H15_20')
-    ('Algebra linear','56787','CT_03')
-    ('Eletronica embarcada','45321','CT_04')
-    ('Vida universitaria','34162','H15_08')
-    ('Programacao em C','78905','H15_16')
+    ('Alonso Xastre','xastre@puccampinas.edu.br','Pi: Desenvolvimento de Sistemas Web'),
+    ('Ricardo Pannain','pannain@puccampinas.edu.br','Organizacao de Sistemas de Computacao'),
+    ('Valdemiro dos Santos','valdomiro@puccampinas.edu.br','Calculo 1'),
+    ('Cristiane Souza','cristiane@puccampinas.edu.br','Calculo 2'),
+    ('Vinicius Martins','vinicius@puccampinas.edu.br','Robotica Computacional'),
+    ('Danilo Silva','danilo@puccampinas.edu.br','Teologia'),
+    ('Valdemiro dos Santos','valdomiro@puccampinas.edu.br','Algebra Linear'),
+    ('Eric Santos','eric@puccampinas.edu.br','Eletronica Embarcada'),
+    ('Alonso Xastre','xastre@puccampinas.edu.br','Vida Universitaria'),
+    ('Angela Rodrigues','angela@puccampinas.edu.br','Programacao de Computadores');
