@@ -51,6 +51,8 @@
                 </div>
             </nav>
         </header>
+        
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
 
         @yield('content')
         
