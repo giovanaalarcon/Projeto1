@@ -58,7 +58,7 @@
         
         <!--Rodapé-->
         <footer>
-            <p>Trabalho Organização de Sistemas Web &copy; 2022</p>
+              <p class="position-absolute bottom-0 end-0">Trabalho Organização de Sistemas Web &copy; 2022</p>
         </footer>
 
         <!-- Bootstraps JS -->
