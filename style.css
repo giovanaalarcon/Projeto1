@@ -1,0 +1,40 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Open+Sans';
+}
+header{
+    background-color:#483D8B;
+    padding:8px 10px;
+    text-align:center;
+}
+a{
+    display:inline-block;
+    margin:0 10px;
+    color:white;
+    font-size:17px;
+}
+section{
+    max-width:960px;
+    margin:20px auto;
+    padding: 0 2%;
+}
+h2{
+    background-color:#483D8B;
+    color:white;
+    padding:8px 10px;
+}
+p{
+    color:black;
+    margin-top:10px;
+    font-size:16px;
+}
+h1{
+    color:black;
+    font-size:20px;
+    margin-top:10px;
+}
+#navbar img{
+    width:50px;
+}
