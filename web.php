@@ -35,12 +35,3 @@ Route::get('/professores', function() {
     $busca = request('search');
     return view('professores', ['busca' => $busca]);
 });
-
-Route::get('/filmes', function() {
-    $busca = request('search');
-    return view('filmes', ['busca' => $busca]);
-});
-
-Route::get('/filme/{id}', function($id = null) {
-    return view('filme', ['id'=> $id]);
-});

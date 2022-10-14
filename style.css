@@ -1,11 +1,11 @@
- *{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family:'Open+Sans';
 }
 header{
-    background-color:#483D8B;
+    background-color:#ffffff;
     padding:8px 10px;
     text-align:center;
 }
@@ -21,7 +21,7 @@ section{
     padding: 0 2%;
 }
 h2{
-    background-color:#483D8B;
+    background: color #ffffff;
     color:white;
     padding:8px 10px;
 }

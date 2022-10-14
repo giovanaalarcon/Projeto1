@@ -5,6 +5,6 @@
 @section('content')
     <h1>Filmes</h1>
     @if($busca != '')
-        <p>Resultados relacionados a {{ $busca }}</p>
+        <p>Resultados relacionados a: {{ $busca }}</p>
     @endif
 @endsection
