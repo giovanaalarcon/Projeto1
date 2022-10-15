@@ -5,32 +5,49 @@
 @section('content')
 
 
-<div class="d-grid gap-3">
-    <div class="p-2 bg-light border">Grid item 1</div>
-    <div class="bg-danger p-2 text-dark bg-opacity-35">This is 35% opacity success background</div>
-    <div class="p-2 bg-light border">Grid item 3</div>
-</div>
+<h1 class="my-4">Projeto</h1>
 
-<div class="mb-4 mt-4">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control border-info" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-
-<div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
-    Changing border color and width
-</div>
-<div class="container-fluid">100% wide until small breakpoint</div>
-
-
-<div class="card w-25">
-    <img src="/img/perfil-coelho.webp" class="card-img-top" alt="coelho">
-
-    <div class="card-body">
-        <h5 class="card-title">Alunos</h5>
-        <p class="card-text">Click no botão abaixo para ver a lista dos alunos matriculados na faculdade PUC Campinas</p>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card h-100">
+     <img src="/img/alunos.webp" class="card-img-top h-75" alt="alunos">
+      <div class="card-body">
+        <h5 class="card-title">Alunos PUC Campinas</h5>
+        <p class="card-text">Acesse a lista de alunos da Universidade PUC Campinas.</p>
         <a href="/students" class="btn btn-primary">Lista de Alunos</a>
+      </div>
     </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/professores.jpg" class="card-img-top h-75" alt="professores">
+      <div class="card-body">
+        <h5 class="card-title">Professores PUC Campinas</h5>
+        <p class="card-text">Acesse a lista de professores da Universidade PUC Campinas.</p>
+        <a href="#" class="btn btn-primary">Lista de Professores</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/filme.jpg" class="card-img-top h-75" alt="filmes">
+      <div class="card-body">
+        <h5 class="card-title">Filmes</h5>
+        <p class="card-text">Acesse os filmes assistidos pelos alunos da PUC Campinas.</p>
+        <a href="#" class="btn btn-primary">Lista de Filmes</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/materias.jpg" class="card-img-top h-75" alt="materias">
+      <div class="card-body">
+        <h5 class="card-title">Matérias</h5>
+        <p class="card-text">Acesse as matérias dos cursos da PUC Campinas.</p>
+        <a href="#" class="btn btn-primary">Lista de Matérias</a>
+      </div>
+    </div>
+  </div>
 </div>
-
 
 @endsection
